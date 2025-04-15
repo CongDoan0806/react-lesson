@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import ProductPage from './components/webbanhang/content';
+import Header from './components/webbanhang/header';
+import Footer from './components/webbanhang/footer';
+import CameraShop from './components/camerashop/home';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <CameraShop />
   </React.StrictMode>
 );
 
