@@ -6,11 +6,13 @@ import Header from './components/webbanhang/header';
 import Footer from './components/webbanhang/footer';
 import CameraShop from './components/camerashop/home';
 import reportWebVitals from './reportWebVitals';
-
+import { Show } from './components/camerashop/data';
+import { ShowApi } from './components/Props/test';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CameraShop />
+    
+    <Show />
   </React.StrictMode>
 );
 
