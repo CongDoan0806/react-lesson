@@ -1,18 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import ProductPage from './components/webbanhang/content';
-import Header from './components/webbanhang/header';
-import Footer from './components/webbanhang/footer';
-import CameraShop from './components/camerashop/home';
 import reportWebVitals from './reportWebVitals';
-import { Show } from './components/camerashop/data';
-import { ShowApi } from './components/Props/test';
+
+import Home from './shop/Home';
+import { FormAdd } from './shop/FormAdd';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
-    <Show />
+    <Home />
   </React.StrictMode>
 );
 
